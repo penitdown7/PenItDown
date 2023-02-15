@@ -3266,8 +3266,8 @@ html.no-csstransitions .featured {
  *
  * ------------------------------------------------------------------- */
 footer {
-   padding-top: 10.2rem;
-   padding-bottom: 6rem;
+   padding-top: 2.2rem;
+   padding-bottom: 0rem;
    font-size: 1.5rem;
    line-height: 2;
    color: rgba(255, 255, 255, 0.4);
@@ -3301,7 +3301,7 @@ footer h4::after {
 }
 
 .s-footer__main {
-   margin-bottom: 3.6rem;
+   margin-bottom: -2.4rem;
 }
 
 
