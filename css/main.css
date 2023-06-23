@@ -4218,4 +4218,49 @@ footer h4::after {
    margin-right: 13px;
 }
 
+/* New Style From Here */
+
+* {
+   box-sizing: border-box;
+ }
+ 
+ /* body {
+   font-family: Arial, Helvetica, sans-serif;
+ } */
+ 
+ /* Float four columns side by side */
+ .columnnew {
+   float: left;
+   width: 25%;
+   padding: 0 10px;
+ }
+ 
+ /* Remove extra left and right margins, due to padding */
+ .rownew {margin: 0 12px;}
+ 
+ /* Clear floats after the columns */
+ .rownew:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Responsive columns */
+ @media screen and (max-width: 600px) {
+   .columnnew {
+     width: 100%;
+     display: block;
+     margin-bottom: 20px;
+   }
+ }
+ 
+ /* Style the counter cards */
+ .cardnew {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   padding: 16px;
+   text-align: center;
+   background-color: #FFFFFF;
+   
+ }
+
 /*# sourceMappingURL=main.css.map */
