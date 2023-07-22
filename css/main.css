@@ -2873,7 +2873,7 @@ html.no-csstransitions .featured {
  * ------------------------------------------------------------------- */
 .s-content {
    background-color: #f2f2f2;
-   padding-top: 8.4rem;
+   padding-top: 2rem;
    padding-bottom: 7.2rem;
 }
 
@@ -4213,10 +4213,24 @@ footer h4::after {
    margin-top: 3.6rem;
 }
 
-.blog-content{
+@media only screen and (width < 1000px){
+   .blog-content{
+      margin-left: 13px;
+      margin-right: 13px;
+   }
+}
+
+@media only screen and (width > 1000px){
+   .blog-content{
+      margin-left: 130px;
+      margin-right: 130px;
+   }
+}
+
+/* .blog-content{
    margin-left: 13px;
    margin-right: 13px;
-}
+} */
 
 /* New Style From Here */
 
